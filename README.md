@@ -1,0 +1,3 @@
+# minLLM
+
+minLLM is a minimal transformer-based language model implemented in Keras (with a PyTorch backend), featuring causal multi-head attention, feed-forward layers, and basic word-level tokenization on the Tiny Shakespeare dataset. Clone the repository (`git clone https://github.com/gustavz/minLLM.git`), install dependencies (`pip install -r requirements.txt`), and run `python min_llm_keras_torch.py` to download data, train the model with Weights & Biases integration and checkpointing, and generate sample text. All model and training hyperparameters (e.g., `MAX_SEQ_LEN`, `EMBED_DIM`, `NUM_HEADS`, `NUM_LAYERS`, `BATCH_SIZE`, `EPOCHS`, `TEMPERATURE`) are configurable at the top of the script. Licensed under the MIT License.
